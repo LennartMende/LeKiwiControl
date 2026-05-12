@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Packaging
+*.egg-info/
+dist/
+build/
+
+# Conda envs (falls doch mal im Repo erstellt)
+.env/
+env/
+.venv/
+venv/
+
+# conda explicit env files (optional!)
+*.conda
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sphinx build
+docs/_build/
+
+# Autosummary generated files
+docs/_autosummary/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# logs
+*.log

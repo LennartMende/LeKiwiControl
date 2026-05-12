@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robot-control"
+version = "0.1.0"
+description = "Robot control system with Viser, ROS2 and teleoperation tools"
+authors = [{ name = "Lennart Mende" }]
+requires-python = ">=3.10"
+
+dependencies = [
+    "viser",
+    "numpy",
+    "tyro",
+    "robot_descriptions",
+]
+
+[project.optional-dependencies]
+
+# ROS2 separat halten (wichtig!)
+ros = [
+    "rclpy"
+]
+
+# Dev + docs tooling
+docs = [
+    "sphinx",
+    "sphinx-autodoc-typehints",
+]
+
+[project.scripts]
+robot-control = "robot_control.app.__main__:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
