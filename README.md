@@ -101,7 +101,7 @@ Enthält statische Daten und Definitionsgrundlagen:
 
 ## 4. Installation
 Repository klonen:  
-'git clone https://github.com/LennartMende/robot_control.git'  
+'git clone https://github.com/LennartMende/LeKiwiControl.git'  
 'cd robot_control'  
 
 Environment aktivieren:  
