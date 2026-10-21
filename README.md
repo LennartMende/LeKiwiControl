@@ -107,7 +107,7 @@ Repository klonen:
 Als Nächstes die environment aus dem yaml generieren:
 conda env create -f environment.yml
 Falls Fehler angezeigt werden, stammen diese von nichtkompatiblen Modulen, die aber für dieses Repo nicht wichtig sind.
-Außerdem ist eine bestehende ROS2-Umgebung, die gesourcet ist, wichtig, da auf die ROS-Client-Library für Python 8rclpy) zurückgegriffen wird.
+Außerdem ist eine bestehende ROS2-Umgebung, die gesourcet ist, wichtig, da auf die ROS-Client-Library für Python rclpy) zurückgegriffen wird.
 
 Environment aktivieren:  
 'conda activate lerlekiwi'  
